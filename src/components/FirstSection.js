@@ -1,5 +1,6 @@
 import bg1 from "../assets/images/bg-1.jpeg";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import mockup from "../assets/images/mockup.jpeg";
 
 const FirstSection = () => {
   const styles = {
@@ -11,12 +12,12 @@ const FirstSection = () => {
   return (
     <>
       <div
-        className="first-section-contain w-screen h-96 outline mt-2 grid grid-cols-2 container mx-auto"
+        className="first-section-contain w-screen mt-2 grid grid-rows-2 md:grid-rows-none md:grid-cols-2 container mx-auto bg-[#0096FF] rounded-xl shadow-xl"
         style={styles}
       >
         <div className="col-1 text-center pt-20">
-          <h1 className="text-3xl ">Welcome to AdaWorld!</h1>
-          <h2 className="text-xl">Code, Game, and Arts</h2>
+          <h1 className="text-3xl font-bold text-neutral-600">Welcome to AdaWorld!</h1>
+          <h2 className="text-lg">Code, Game, and Arts</h2>
           <div className="button-group flex justify-center mt-5 gap-1">
             
             <a href="https://adabrain.tv">
@@ -36,8 +37,10 @@ const FirstSection = () => {
             By using AdaWorld, you agree to its license and privacy statement.
           </p>
         </div>
-        <div className="col-2">
-          <h1>Col-2</h1>
+
+        {/* Product Image */}
+        <div className="col-2 mx-auto py-8">
+          <img className="w-96 rounded-xl  border-b-8 border-neutral-500 shadow-2xl shadow-neutral-500 hover:-translate-y-4 duration-500" src={mockup} alt="" />
         </div>
       </div>
     </>
