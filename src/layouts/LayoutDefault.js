@@ -1,3 +1,4 @@
+import FirstSection from "../components/FirstSection";
 import NavbarMobile from "../components/mobile/NavbarMobile";
 import Navbar from "../components/Navbar";
 
@@ -7,9 +8,8 @@ const LayoutDefault = () => {
       <Navbar />
       <NavbarMobile />
 
-      {/* <div className="first-section w-screen h-96 mt-4 ">Image cover</div>
-      
-      <div className="second-section w-screen h-96 mt-4 ">Education</div> */}
+      {/* FirstSection */}
+      <FirstSection />
       
       </div>
       
