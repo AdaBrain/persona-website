@@ -1,6 +1,5 @@
-import bg1 from "../assets/images/bg-1.jpeg";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import mockup from "../assets/images/mockup.jpeg";
+import mockup from "../assets/images/deco.jpeg";
 
 const FirstSection = () => {
   const styles = {
