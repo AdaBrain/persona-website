@@ -11,7 +11,7 @@ const FirstSection = () => {
   return (
     <>
       <div
-        className="first-section-contain w-screen mt-2 grid grid-rows-2 md:grid-rows-none md:grid-cols-2 container mx-auto bg-[#3B3F8C] rounded-xl shadow-xl"
+        className="first-section-contain w-screen mt-2 mb-4 grid grid-rows-2 md:grid-rows-none md:grid-cols-2 container mx-auto bg-[#3B3F8C] rounded-xl shadow-xl pb-5"
         style={styles}
       >
         <div className="col-1 text-center pt-20 text-[#F2CF8D]">

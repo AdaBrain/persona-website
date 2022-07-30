@@ -3,6 +3,10 @@ import { FaHeart } from "react-icons/fa";
 const newsData = [
     {topic: "[Update 12.5] Dungeon and Dragon 5e, start at Adabrain", like: "108", link: "#"},
     {topic: "[Update 10.1] Dungeon and Dragon 4e, Now at Adabrain", like: "5k", link: "#"},
+    {topic: "[Update 12.5] Dungeon and Dragon 5e, start at Adabrain", like: "108", link: "#"},
+    {topic: "[Update 10.1] Dungeon and Dragon 4e, Now at Adabrain", like: "5k", link: "#"},
+    {topic: "[Update 12.5] Dungeon and Dragon 5e, start at Adabrain", like: "108", link: "#"},
+    {topic: "[Update 10.1] Dungeon and Dragon 4e, Now at Adabrain", like: "5k", link: "#"},
 ]
 
 const NewsItem = (props) => {
@@ -18,7 +22,7 @@ const NewsItem = (props) => {
         <p className="likes text-[#1F2440] text-lg font-bold">{like}</p>
       </div>
       <a href={link}>
-        <button className="bg-[#292759] text-[#F2CF8D] p-3 rounded-xl border-t-4 border-[#F2CF8D] hover:bg-[#1F2440] hover:border-t-2">
+        <button className="hidden lg:inline bg-[#292759] text-[#F2CF8D] p-3  rounded-xl border-t-4 border-[#F2CF8D] hover:bg-[#1F2440] hover:border-t-2">
           read more
         </button>
       </a>
