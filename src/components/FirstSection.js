@@ -12,11 +12,11 @@ const FirstSection = () => {
   return (
     <>
       <div
-        className="first-section-contain w-screen mt-2 grid grid-rows-2 md:grid-rows-none md:grid-cols-2 container mx-auto bg-[#0096FF] rounded-xl shadow-xl"
+        className="first-section-contain w-screen mt-2 grid grid-rows-2 md:grid-rows-none md:grid-cols-2 container mx-auto bg-[#3B3F8C] rounded-xl shadow-xl"
         style={styles}
       >
-        <div className="col-1 text-center pt-20">
-          <h1 className="text-3xl font-bold text-neutral-600">Welcome to AdaWorld!</h1>
+        <div className="col-1 text-center pt-20 text-[#F2CF8D]">
+          <h1 className="text-3xl font-bold">Welcome to AdaWorld!</h1>
           <h2 className="text-lg">Code, Game, and Arts</h2>
           <div className="button-group flex justify-center mt-5 gap-1">
             
@@ -33,7 +33,7 @@ const FirstSection = () => {
           </div>
 
           {/* Term and conditions  */}
-          <p className="text-sm mt-3 text-gray-500">
+          <p className="text-sm mt-3 text-[#F2CF8D]">
             By using AdaWorld, you agree to its license and privacy statement.
           </p>
         </div>
